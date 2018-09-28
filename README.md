@@ -1,2 +1,2 @@
 # Toedmilk-swear-jar
-Interactive swear jar overlay for twitch
+Interactive swear jar overlay for twitch.
