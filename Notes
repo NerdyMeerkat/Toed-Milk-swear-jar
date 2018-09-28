@@ -1,0 +1,16 @@
+The twitch bot/overlay needs to do the following:
+-monitor the chat log for keywords
+-play sounds on keyword recognition
+-display an overlay
+
+The above are the minimal requirements.
+
+Other thoughts are:
+-reply to people
+-animated overlay
+-timers on certain commands/words/iterations
+
+The overlay as I imagine is going to be translucent, scalable and pixel art based.
+I've started to create sound files from text to speech. I would also like an explosion sound possibly.
+
+The idea with the explosion sound is when the jar is full it explodes.
