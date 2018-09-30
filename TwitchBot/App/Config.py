@@ -1,7 +1,5 @@
 #This is the config file for required twitch data
 
-from Constants import *
-
 HOST = "irc.chat.twitch.tv"
 PORT = 6667
 PASS = "oauth: from https://twitchapps.com/tmi"
