@@ -2,7 +2,7 @@
 
 from Constants import *
 
-HOST = "irc.twitch.tv"
+HOST = "irc.chat.twitch.tv"
 PORT = 6667
 PASS = "oauth: from https://twitchapps.com/tmi"
 NICK = "Twitch account name of the chat bot"
