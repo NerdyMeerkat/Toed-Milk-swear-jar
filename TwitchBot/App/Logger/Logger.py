@@ -14,6 +14,7 @@ class Logger(object):
         self.appDirectory = appDirectory
         self.logDirectory = appDirectory + "/logs"
         self.logFile = self.logDirectory + "/error.log"
+        self.mode = mode #Append or write over
 
         #Call method to setup logger
         self.setupLogger()
