@@ -21,7 +21,7 @@ class Logger(object):
     #Method creates directory if it doesn't exist
     def setupDirectory(self):
         if(not(os.path.isdir(self.logDirectory))):
-            os.makedirs(self.logDirectory, mode = 0755)
+            os.makedirs(self.logDirectory, mode = 0755);
 
     #Method creates file if it doesn't exist
     def setupFile(self):
@@ -33,7 +33,11 @@ class Logger(object):
     def setupFormat(self):
         errorFormat = '%(asctime)s - %(levelname)s - %(message)s'
         dateFormat = '%m/%d/%Y %I:%M:%S %p'
-        logging.basicConfig(filename = self.logFile, \ filemode = self.mode, \ level = logging.DEBUG, \ format = errorFormat, \ datefmt = dateFormat)
+        logging.basicConfig(filename = self.logFile, \
+                            filemode = self.mode, \
+                            level = logging.DEBUG, \
+                            format = errorFormat, \
+                            datefmt = dateFormat)
 
     #Method setups logger
     def setupLogger(self):
