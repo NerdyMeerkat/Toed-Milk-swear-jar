@@ -22,7 +22,7 @@ class Logger(object):
     #Method creates directory if it doesn't exist
     def setupDirectory(self):
         if(not(os.path.isdir(self.logDirectory))):
-            os.makedirs(self.logDirectory, mode = 0755)
+            os.makedirs(self.logDirectory, mode = 755)
 
     #Method creates file if it doesn't exist
     def setupFile(self):
