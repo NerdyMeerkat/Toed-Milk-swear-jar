@@ -7,3 +7,6 @@ KEYWORDS = ["!C-bomb", "!F-bomb"]
 
 #GREETINGS I will implement so people can interact a bit more with the bot
 GREETINGS = []
+
+#MESSAGE is used as a debugging print statement on the tutorial
+MESSAGE = "Hello World"
